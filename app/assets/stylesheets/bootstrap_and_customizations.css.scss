@@ -1,0 +1,62 @@
+@import "bootstrap";
+
+body{
+	background: #fff url('brickwall.png') repeat left top;
+}
+
+#n-brand{
+	color: white;
+	padding-top: 0;
+	text-transform: capitalize;
+	&:hover{
+		background-color: black;
+	}
+}
+
+.navbar-inverse{
+	box-shadow: 1px 1px 3px 3px;
+	margin-bottom: 50px;
+}
+
+.active, .navbar-nav > li:hover{
+	background-color: black;
+	color: white !important;
+}
+
+#uber_logo{
+	width: 80px;
+}
+
+.jumbotron {
+	text-align: center;
+	background: rgba(220, 220, 220, .5);
+	box-shadow: 1px 1px 5px 2px;
+}
+
+.jumbotron > .container{
+	position: relative;
+	background: url('car.png') no-repeat center center;
+	background-size: 100%;
+}
+
+.jumbotron h1{
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+
+.jumbotron p{
+	font-weight: bold;
+	color: #444;
+}
+
+p.first_paragraph{
+	margin-top: 30px;
+	font-size: 30px;
+}
+p.second_paragraph{
+	font-style: italic;
+}
+
+.promo_code{
+	text-decoration: underline;
+}
