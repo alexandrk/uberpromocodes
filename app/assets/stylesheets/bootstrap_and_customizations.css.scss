@@ -1,7 +1,7 @@
 @import "bootstrap";
 
 body{
-	background: #fff url('brickwall.png') repeat left top;
+	background: #fff url(asset-path('brickwall.png')) repeat left top;
 }
 
 #n-brand{
@@ -35,7 +35,7 @@ body{
 
 .jumbotron > .container{
 	position: relative;
-	background: url('car.png') no-repeat center center;
+	background: url(asset-path('car.png')) no-repeat center center;
 	background-size: 100%;
 }
 
