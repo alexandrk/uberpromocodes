@@ -1,10 +1,10 @@
 UberpromocodeUs::Application.routes.draw do
 
-  get "home"  => 'pages#home'
+  get "promo"  => 'pages#promo'
   get "about" => 'pages#about'
   get "drive" => 'pages#drive'
 
-  root :to => redirect('/home')
+  root :to => redirect('/promo')
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
