@@ -6,6 +6,5 @@ $(document).ready(function(){
 
 		//e.preventDefault();
 		mixpanel.track("Get App Button Click");
-		alert("here");
 	})
 });
