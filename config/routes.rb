@@ -1,6 +1,8 @@
 UberpromocodeUs::Application.routes.draw do
 
-  get "promo"  => 'pages#promo'
+  get "promo" => 'pages#promo'
+  get 'home'  => 'pages#promo'
+
   get "about" => 'pages#about'
   get "drive" => 'pages#drive'
 
