@@ -3,8 +3,6 @@ $(document).ready(function(){
 	//var client = new ZeroClipboard($(".promo_code"));
 
 	$('#getAppBtn').on('click', function(e){
-
-		//e.preventDefault();
 		mixpanel.track("Get App Button Click");
 	})
 });
